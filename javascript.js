@@ -8,13 +8,13 @@ var correctAnswer;
 
 //if we click on the start/reset
 document.getElementById("startreset").onclick = function(){
- //if we r playing? (mean if we go start a new game)
+ //if we r playing? (mean if we going to start a new game)
     if (playing == true) {
         
        //reload page
         location.reload();
         
-    }else {//if we not playing?(mean a game is runn)
+    }else {//if we not playing?(mean a game is currently running)
         
         //change mode to playing
         playing = true;
